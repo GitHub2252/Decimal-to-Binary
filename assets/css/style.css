@@ -1,0 +1,60 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Titillium+Web:wght@600&display=swap');
+
+/* font-family: 'Secular One', sans-serif;
+font-family: 'Titillium Web', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-wrapper {
+    margin-top: 150px;
+}
+
+.convert-box {
+    width: 700px;
+    padding: 35px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 3px solid #fff;
+    height: 35px;
+    margin-top: 25px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.box-title {
+    font-family: 'Secular One', sans-serif;
+    color: #fff;
+}
+
+#converter {
+    padding: 15px 60px;
+    background: #fff;
+    margin-top: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+}
